@@ -61,7 +61,7 @@ services:
     expose:
       - 8983
     volumes:
-      - solr-data:/var/solr
+      - solr-data:/var/lib/solr/solr/data
 volumes:
   mysql-data:
   mongo-data:
